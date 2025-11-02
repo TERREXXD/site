@@ -9,7 +9,8 @@ body{margin:0;background:var(--bg);color:#fff;font-family:Poppins,system-ui,-app
 
 /* Centro fijo */
 .stage{position:fixed;inset:0;display:grid;place-items:center;pointer-events:none}
-.center{display:grid;place-items:center;text-align:center;gap:10px}
+.center{display:grid;place-items:center;text-align:center;gap:10px;pointer-events:auto}
+.sunflower-big a{cursor:pointer; text-decoration:none; color:inherit}
 .sunflower-big{font-size:clamp(160px,28vw,360px);line-height:1;filter:drop-shadow(0 10px 40px rgba(255,211,77,.25))}
 .love{margin:0;font-family:Parisienne,cursive;font-size:clamp(28px,6vw,64px);letter-spacing:.5px;color:var(--txt);text-shadow:0 6px 30px rgba(0,0,0,.6)}
 
